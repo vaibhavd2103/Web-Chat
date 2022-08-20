@@ -1,0 +1,36 @@
+.chatroom{
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  border-bottom: solid 1px #5555;
+  transition: 200ms;
+}
+
+.chatroom:hover{
+  background-color: #333;
+  box-shadow: 5px 5px 10px #0007;
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+
+.connect_button{
+  transition: 200ms;
+  background-color: #4F39A1;
+  border: 0;
+  padding: 5;
+  padding-inline: 12;
+  border-radius: 10;
+  border-radius: 10px;
+  border: solid 2px #0000;
+}
+
+.connect_button:hover{
+  transform: scale(1.1);
+  opacity: 1;
+  background-color: #0000;
+  border: solid 2px #4F39A1;
+  padding: 5;
+  padding-inline: 12;
+}
